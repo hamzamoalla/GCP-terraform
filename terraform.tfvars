@@ -16,8 +16,6 @@ avail_zone = "europe-west1-b"
 # Préfixe d'environnement pour nommer les ressources
 env_prefix = "dev"
 
-# Adresse IP publique autorisée pour SSH
-my_ip = "votre-ip-publique/32"
 
 # Type d'instance pour les machines virtuelles
 instance_type = "e2-medium"

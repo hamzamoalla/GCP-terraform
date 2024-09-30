@@ -87,10 +87,6 @@ resource "google_compute_instance" "myapp-server" {
     access_config {}
   }
 
-  metadata = {
-    ssh-keys = "username:${file(var.public_key_location)}"
-  }
-
   tags = ["allow-ssh-http"]
 
   metadata_startup_script = file("entry-script.sh")
